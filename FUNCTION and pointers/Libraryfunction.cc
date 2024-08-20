@@ -4,6 +4,6 @@
 using namespace std;
 
 int main() {
-    cout << sqrt(4);
+    cout << cbrt(9);
     return 0; // Add a return statement to indicate successful execution
 }
