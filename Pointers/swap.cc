@@ -6,9 +6,9 @@ int main(){
     y = 6;
     cout<<x<<" "<<y<<endl;
 
-    int temp = x;
+    int tempo = x;
     x=y;
-    y=temp;
-    cout<<x<<" "<<y<<endl;
+    y=tempo;
+    cout<<"Value of x = "<<x<<" "<<"Value of Y = "<<y<<endl;
 
 }
