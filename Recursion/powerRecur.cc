@@ -7,7 +7,7 @@ int main(){
 }
 int main(){
     int a;
-    cout<<"Enter base : ";
+    cout<<"Enter base  : ";
     cin>>a;
     int b;
     cout<<"Enter power : ";
