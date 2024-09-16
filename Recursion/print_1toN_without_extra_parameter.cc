@@ -11,7 +11,7 @@ void print(int n){
 
 int main(){
     int n;
-    cout<<"Enter n here : ";
+    cout<<"Enter n : ";
     cin>>n;
     print(n);
 }
