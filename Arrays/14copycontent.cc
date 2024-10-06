@@ -13,7 +13,7 @@ int main(){
         b[i] = a[n-1-i];
     }
     for(int i=0; i<n; i++){
-        cout<<"Array of "<<b[i]<<" ";
+        cout<<b[i]<<" ";
     }
 
 }
