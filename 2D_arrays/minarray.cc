@@ -11,7 +11,7 @@ int main(){
 
     for(int j=0;j<3;j++){
         for(int i=0;i<2;i++){
-            cout<<arr[i][j]<<" ";
+            cout<<"The value of arrays : "<<arr[i][j]<<" ";
         }
         cout<<endl;
     }
