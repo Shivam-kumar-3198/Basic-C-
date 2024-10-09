@@ -9,9 +9,12 @@ int main(){
     arr[1][1] = 3;
     arr[1][2] = 5;
 
+cout<<"Following are the matrices given below : "<<endl;
     for(int j=0;j<3;j++){
         for(int i=0;i<2;i++){
-            cout<<"The value of arrays : "<<arr[i][j]<<" ";
+            
+            cout<<arr[i][j]<<" ";
+            
         }
         cout<<endl;
     }
