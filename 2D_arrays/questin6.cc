@@ -5,7 +5,7 @@ int sum2DArray(int arr[][3], int rows, int cols) {
     int sum = 0;
     for (int i = 0; i < rows; i++) {
         for (int j = 0; j < cols; j++) {
-            sum += arr[i][j];
+            sum += arr[i][j]; //mixing the array and b
         }
     }
     return sum;
