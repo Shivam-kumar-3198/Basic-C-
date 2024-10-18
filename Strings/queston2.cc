@@ -13,8 +13,11 @@ int main(){
     // s.pop_back();
     // cout<<s<<endl;  //ek letter hat jayega
 
-    s.append(" kumar");
-    cout<<s.length()<<endl;
+    // s.append(" kumar");
+    // cout<<s.length()<<endl;
+
+    s.clear();
+    cout<<s<<" "<<s.length()<<endl;
 
 
 }
