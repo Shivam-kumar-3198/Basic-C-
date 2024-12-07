@@ -5,4 +5,6 @@ int main(){
     
     cout<<"Enter a number : ";
     cin>>n;
+
+    
 }
