@@ -15,7 +15,7 @@ int main(){
 }
 */
 
-/*
+
 #include<iostream>
 using namespace std;
 int main(){
@@ -30,8 +30,9 @@ int main(){
         cout<<a<<" "<<b <<" "<<c<<endl;
     }
 }
-*/
+
 // we have to print the sum of numbers from 1 to n
+/*
 #include<iostream>
 using namespace std;
 int main(){
@@ -49,3 +50,4 @@ int main(){
     cout<<sum<<endl;
 
 }
+*/
