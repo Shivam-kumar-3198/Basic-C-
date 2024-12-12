@@ -3,7 +3,9 @@
 using namespace std;
 int main(){
     int n;
+    cout<<"Enter the number in bits : ";
     cin>>n;
+    
 
     int i=0,answer=0;
 
