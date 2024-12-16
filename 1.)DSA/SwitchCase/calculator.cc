@@ -14,8 +14,10 @@ int main(){
     cout<<"Enter the operation (symbol) you want to perform : "<<endl;
     cin>>op;
 
+    cout<<"Your Result is : ";
+
     switch( op ){
-        cout<<"Your Result is : ";
+        
         case '+' : cout<<(a+b) <<endl;
                 break;
 
