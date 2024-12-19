@@ -6,6 +6,6 @@ int main(){
     float a = 3.141592*r*r;
     cout<<"Area is :"<<endl;
     cout<<a<<endl;
-    
+    cout<<"Enter the number ";
 
 }
