@@ -1,41 +1,53 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
-int binarySearch(int arr[], int size, int key){
-
+// Function to perform binary search
+int binarySearch(const int arr[], const int size, const int key) {
     int start = 0;
-    int end = size-1;
+    int end = size - 1;
 
-    int mid = (start+end)/2;
+    // Calculate the mid-point
+    int mid = start + (end - start) / 2; 
 
-    while(start <= end){
-
-        if(arr[mid] == key){
-            return mid;
+    // Perform the binary search
+    while (start <= end) {
+        if (arr[mid] == key) {
+            return mid; // Key found, return the index
         }
-        if(key > arr[mid]){
-            start = mid +1;
+        if (key > arr[mid]) {
+            start = mid + 1; // Search in the right half
+        } else {
+            end = mid - 1; // Search in the left half
         }
-        else{
-            end = mid-1;
-        }
-        mid = (start+end)/2;
+        mid = start + (end - start) / 2; // Recalculate mid-point
     }
-    return -1;
+    return -1; // Key not found
 }
 
-int main(){
+int main() {
+    const int evenArray[] = {2, 4, 6, 8, 12, 18}; // Even-sized array
+    const int oddArray[] = {3, 8, 11, 14, 16};    // Odd-sized array
 
-    int even[6] = {2,4,6,8,12,18};
-    int odd[5] = {3,8,11,14,16};
+    const int evenSize = sizeof(evenArray) / sizeof(evenArray[0]); // Calculate size of evenArray
+    const int oddSize = sizeof(oddArray) / sizeof(oddArray[0]);    // Calculate size of oddArray
 
-    int index = binarySearch(even, 6,12);
-    
-    cout<<"Index of 18 is " << index <<endl;
+    // Perform binary search on evenArray
+    int evenKey = 12;
+    int evenIndex = binarySearch(evenArray, evenSize, evenKey);
+    if (evenIndex != -1) {
+        cout << "Key " << evenKey << " found at index " << evenIndex << " in evenArray." << endl;
+    } else {
+        cout << "Key " << evenKey << " not found in evenArray." << endl;
+    }
 
-    int oddIndex = binarySearch(odd, 5, 8);
-    cout<<"Index of 8 is " << oddIndex <<endl;
+    // Perform binary search on oddArray
+    int oddKey = 8;
+    int oddIndex = binarySearch(oddArray, oddSize, oddKey);
+    if (oddIndex != -1) {
+        cout << "Key " << oddKey << " found at index " << oddIndex << " in oddArray." << endl;
+    } else {
+        cout << "Key " << oddKey << " not found in oddArray." << endl;
+    }
 
     return 0;
-
 }
