@@ -33,6 +33,9 @@ int main(){
     
     cout<<"Index of 18 is " << index <<endl;
 
+    int oddIndex = binarySearch(odd, 5, 8);
+    cout<<"Index of 8 is " << oddIndex <<endl;
+
     return 0;
 
 }
