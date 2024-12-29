@@ -27,4 +27,6 @@ int main(){
     
     int even[5] = {1,2,3,3,5};
 
+    cout<<"First Occurance of 3 is " <<firstOcc(even,5,3)<<endl;
+
 }
