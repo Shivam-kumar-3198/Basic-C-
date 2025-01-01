@@ -8,7 +8,13 @@ int main(){
     cin>>x;
 
     for(int i=0; i<n; i++){
-        if(arr[i]);
+        if(arr[i]==x);{
+        flag = true;
+        // cout<<x<<" is present";
+        break;
+        }
     }
+    if(flag==true) cout<<x<<" is present";
+    else cout<<x<<" is not present";
 
 }
