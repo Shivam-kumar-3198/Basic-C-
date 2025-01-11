@@ -1,0 +1,3 @@
+/*
+We have to write linear search code for vector
+*/
