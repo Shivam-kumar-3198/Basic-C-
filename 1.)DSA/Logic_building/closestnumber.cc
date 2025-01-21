@@ -1,9 +1,10 @@
-#include<iostream>
+#include <bits/stdc++.h>
 using namespace std;
+
 int closestNumber(int n, int m) {
     // find the quotient
    int closest = 0;
-    int minDifference = INT8_MAX;
+    int minDifference = INT_MAX;
 
     // Check numbers around n
     for (int i = n - abs(m); i <= n + abs(m); ++i) {
