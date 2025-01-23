@@ -6,6 +6,11 @@ int main(){
     cout<<"Before swapping "<<endl;
     cout<<"a = "<< a<<", b = "<< b<<endl;
 
+    cout<<"After swapping "<<endl;
+    temp = a;
+    a=b;
+    b = temp;
+    cout<<"a = "<<a<<", b = "<<b;
 
     
 }
