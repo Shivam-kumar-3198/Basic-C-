@@ -17,5 +17,24 @@ int main(){
    cout<<"Input the marks of physics,chemistry and Information tech ..";
    cin>>phy>>chem>>it;
 
-   total
+   total = phy + chem + it;
+   percentage = total/3.0;
+
+   if(percentage >= 60)
+   strcpy(div,"first");
+
+   else if(percentage < 60 && percentage >= 48){
+    strcpy(div,"Second")
+   }
+
+   else if(percentage< 48 && percentage >= 36 ){
+    strcpy(div,"Pass");
+   }
+
+   else{
+    strcpy(div,"Fail");
+   }
+   cout<<"Roll No "<<rollNo<<endl<<"Name of student : "<<name<<endl;
+
+   cout<<"Marks in physics : "<<
 }
