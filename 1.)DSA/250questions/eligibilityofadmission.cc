@@ -6,7 +6,7 @@ int main() {
     int candidateAge;
     
     // Input the age of the candidate
-    cout << "Input the age of the candidate: ";
+    cout << "Input the age of the candidate to look for vote: ";
     cin >> candidateAge;
 
     // Check eligibility for voting
