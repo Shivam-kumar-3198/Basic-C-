@@ -14,7 +14,7 @@ int main() {
         cout << "Sorry, you are not eligible to cast your vote." << endl;
         cout << "You will be able to cast your vote after " << 18 - candidateAge << " year(s)." << endl;
     } else if (candidateAge == 18) {
-        cout << "Congratulations! You are just eligible to cast your vote." << endl;
+        cout << "Congratulations! You are just eligible to cast your vote. also get lost" << endl;
     } else {
         cout << "Congratulations! You are eligible to cast your vote." << endl;
     }
