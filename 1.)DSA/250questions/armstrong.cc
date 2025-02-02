@@ -8,7 +8,7 @@ int main() {
     cin >> lower >> higher;
 
     cout << "Armstrong numbers between " << lower << " and " << higher << " are:\n";
-    cout<<"Going good";
+    cout<<"Going good"<<endl;;
 
     for (int i = lower; i <= higher; i++) {
         int temp1 = i, temp2 = i, remainder, n = 0, result = 0;
