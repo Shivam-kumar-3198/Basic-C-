@@ -1,21 +1,26 @@
 // program to find first and last digit of any number
-#include<iostream>
-#include<math.h>
+#include <iostream>
 using namespace std;
-int main(){
-          int num, last;
-          cout<<"Enter any number : ";
-          cin>>num;
 
-          last = num%10;
+void printFirstLastDigit() {
+    int num, last;
+    cout << "Enter any number: ";
+    cin >> num;
 
-          cout<<"The last digit of entered number : "<<last<<endl;
+    last = num % 10;  // Extract the last digit
 
-          while(num>=10){
-            num = num/10;
-          }
+    while (num >= 10) {
+        num = num / 10;  // Extract the first digit
+    }
 
-          cout<<"The first digit of entered number : "<<num;
-          return 0;
+    cout << "The first digit of the entered number: " << num << endl;
+    cout << "The last digit of the entered number: " << last << endl;
+}
 
+int main() {
+    printFirstLastDigit();  // Call the function
+    
+    cout<<"Enter number again : "<<endl;
+    printFirstLastDigit();
+    return 0;
 }
