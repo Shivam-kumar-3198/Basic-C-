@@ -22,5 +22,7 @@ int main() {
     
     cout<<"Enter number again : "<<endl;
     printFirstLastDigit();
+
+    printFirstLastDigit();
     return 0;
 }
