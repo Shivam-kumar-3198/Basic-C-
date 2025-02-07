@@ -14,6 +14,6 @@ int main(){
         i++;
     }
     cout<<"Factorial of "<<num<<" is :"<<fact;
-
+    cout<<"Factorial of "<<num<<"is"<<fact;
     return 0;
 }
