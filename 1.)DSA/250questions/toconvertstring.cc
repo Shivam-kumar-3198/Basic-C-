@@ -7,7 +7,7 @@ using namespace std;
 
 int main(){
 
-    char string[10];
+    char string[100];
     cout<<"Input a string to convert to lower case"<<endl;
     cin.getline(string,100);
 
