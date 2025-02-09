@@ -13,6 +13,7 @@ int main(){
 
     cout<<"Character in lowercase :"<<strlwr(string);
     cout<<"Character in lowercase :"<<strlwr(string);
+    cout<<"Character in lowercase :"<<strlwr(string);
 
 
     // strlwr is used to convert upper case character to lower case 
