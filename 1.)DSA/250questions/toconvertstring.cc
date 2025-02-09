@@ -12,6 +12,8 @@ int main(){
     cin.getline(string,100);
 
     cout<<"Character in lowercase :"<<strlwr(string);
+    cout<<"Character in lowercase :"<<strlwr(string);
+
 
     // strlwr is used to convert upper case character to lower case 
     return 0;
