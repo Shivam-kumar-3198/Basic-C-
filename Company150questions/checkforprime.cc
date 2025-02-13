@@ -4,6 +4,7 @@ int main(){
     int a;
     cout<<"Enter a number a : ";
     cin>>a;
+    cout<<"What are you thinking ";
 
     if(a<2){
         cout<<a<<" is not a prime number ";
