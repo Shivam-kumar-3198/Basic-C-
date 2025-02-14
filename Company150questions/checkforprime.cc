@@ -28,6 +28,12 @@ int main(){
 /*
 Why 1 is NOT Prime:
 It has only one divisor
+Why 1 is NOT Prime:
+It has only one divisor
+Why 1 is NOT Prime:
+It has only one divisor
+Why 1 is NOT Prime:
+It has only one divisor
 
 The number 1 is only divisible by itself (1).
 A prime number must have exactly two distinct divisors (1 and itself).
