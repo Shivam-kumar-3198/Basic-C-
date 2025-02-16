@@ -4,7 +4,7 @@ using namespace std;
 
 int main() {
     int lower, higher;
-    cout << "Enter two numbers: ";
+    cout << "Enter two numbers : ";
     cin >> lower >> higher;
 
     cout << "Armstrong numbers between " << lower << " and " << higher << " are:\n";
