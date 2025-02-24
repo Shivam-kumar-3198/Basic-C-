@@ -12,7 +12,7 @@ int main() {
 
     for (int i = lower; i <= higher; i++) {
         int temp1 = i, temp2 = i, remainder, n = 0, result = 0;
-
+        
         // Count the number of digits
         while (temp1 != 0) {
             temp1 /= 10;
