@@ -11,7 +11,7 @@ int main(){
            
     }
 
-    cout<<"your total bags are : "<<teaBags;
-    
+    cout<<"your total bags are : "<<teaBags<<endl;
+    cout<<"Final answer is recieved."<<endl;
    return 0;
 }
