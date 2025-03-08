@@ -2,23 +2,23 @@
 // certain conditions (e.g., if they have fewer than 10 bags, give them 5 extra). Update the original number using
 // assignment operators.
 
-#include<iostream>
+#include <iostream>
 using namespace std;
-int main(){
-    
+int main()
+{
+
     int teaBags;
-    cout<<"Enter the number of Tea bags you have : "<<endl;
-    cin>>teaBags;
-    
-    
-    if (teaBags<10){
-        cout<<teaBags + 5<< " Five more added"<<endl;;
-        cout<<"You have less teabags that's why we have added extra"<<endl;
+    cout << "Enter the number of Tea bags you have : " << endl;
+    cin >> teaBags;
+
+    if (teaBags < 10)
+    {
+        teaBags += 5;
+        // teabags += 5;
+        cout << "You have less teabags that's why we have added extra" << endl;
     }
 
-    else{
-        cout<<"Good to go";
-    }
+    cout << "Your total bags are " << teaBags;
+    
     return 0;
-
 }
