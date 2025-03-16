@@ -14,3 +14,10 @@ Challenge: Write a program that keeps serving tea until the user says they've ha
 when the user types 'stop'.
 he loop
 Subscribe
+
+5. Continue Keyword
+Challenge: Write a program that skips brewing green tea if the user dislikes it. Use a continue statement to skip over green tea but brew other
+types of tea in a tist.
+
+6. Nested Loops
+Challenge: Write a program that brews multiple cups of different types of tea. For each type of tea, brew 3 cups using a nested loop.

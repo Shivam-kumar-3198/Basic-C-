@@ -9,11 +9,13 @@ for each cup using a for loop.
 #include<string>
 using namespace std;
 int main(){
-     int teaCups = 1000;
+     int i = 5;
 
-     for(int i=1;/*Here I is taken because loop is also called iteration*/i<1000; i++){
+     for(int i=1;/*Here I is taken because loop is also called iteration*/i<5; i++){
         cout<<"Brewing "<<i<<" a cup of tea"<<endl;
      }
+     cout<< i;//this will not be considered beacause i is a scope and it only manages things in for loop
+     cout<<"Outside the loop"<<endl;
 
      return 0;
 }
