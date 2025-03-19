@@ -17,3 +17,9 @@ int main(){
     checkTemperature();
     return 0;
 }
+int main(){
+    int temp = checkTemperature(50);
+    std::cout<<temp;
+    checkTemperature();
+    return 0;
+}
