@@ -1,14 +1,15 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
-int checkTemperature(int temperature){
-     cin>>temperature;
-     cout<<"Current temperature is " <<temperature<<endl;
+int checkTemperature(int temperature)
+{
+    cin >> temperature;
+    cout << "Current temperature is " << temperature << endl;
 }
 
-int main(){
+int main()
+{
     return 0;
-    
 }
 
 /*
