@@ -1,25 +1,21 @@
-// returnType functionName()
-
-
 #include<iostream>
+using namespace std;
 
 int checkTemperature(int temperature){
-    return temperature;
-    // can we load data from api
+     cin>>temperature;
+     cout<<"Current temperature is " <<temperature<<endl;
 }
 
-//declaraton of function
-void serveChai(int cups);
+int main(){
+    return 0;
+    
+}
 
-int main(){
-    int temp = checkTemperature(50);
-    std::cout<<temp;
-    checkTemperature();
-    return 0;
-}
-int main(){
-    int temp = checkTemperature(50);
-    std::cout<<temp;
-    checkTemperature();
-    return 0;
-}
+/*
+//
+returnType functionName(parameters){
+//
+// function body
+// 3
+# void
+*/
