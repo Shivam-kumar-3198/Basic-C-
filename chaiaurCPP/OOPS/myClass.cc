@@ -39,5 +39,13 @@ int main() // Program ka execution yaha se start hoga.
     chaiOne.ingredients = {"Water", "Lemon", "Honey", "Tea"}; // Ingredients ka list set kiya.
 
     chaiOne.displaySam(); // Object ke displaySam() function ko call kiya taaki tea ke details print ho.
+   
+    Sam dayTwo;
+
+    dayTwo.teaName = "Honey tea";
+    dayTwo.servings = 10;
+    dayTwo.ingredients = {"Water", "Milk", "Honey", "Tea leaves real gold"};
+
+    dayTwo.displaySam();
     return 0; // Program successfully khatam ho gaya, to return 0 diya.
 }
