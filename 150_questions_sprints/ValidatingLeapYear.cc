@@ -13,7 +13,7 @@ int main(){
         /* code */
         cout<<a<<" is the Leap year";
     }
-    
+    // here are the details
     else{
         cout<<a<<"is not a leap year";
     }
