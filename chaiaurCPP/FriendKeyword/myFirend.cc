@@ -3,35 +3,37 @@
 #include<string>
 using namespace std;
 
+class Chai {
+private:
+    string teaName;
+    int servings;  // Fixed the spelling
 
-class Chai{
-    // here we have created a private functin
-    private:
-      string teaName;
-      int servings;
+public:
+    Chai(string name, int serve) : teaName(name), servings(serve) {}  // Fixed the member variable
 
-    public:
-      Chai(string name, int serve): teaName(name) , sergs(serve){}
-      
-      void display() const{
-        cout<<"teaname : " <<teaName <<endl;
-      }
+    friend bool compareServings(const Chai &chai1, const Chai &chai2);
 
+    void display() const {
+        cout << "Tea name: " << teaName << endl;
+    }
+};
 
+bool compareServings(const Chai &chai1, const Chai &chai2) {
+    return chai1.servings > chai2.servings;  // Added missing semicolon
 }
 
-
-int main(){
-    Chai masalChai("Masala CHai", 4);
-    Chai masalChai("Ginger CHai", 8);
+int main() {
+    Chai masalaChai("Masala Chai", 4);
+    Chai gingerChai("Ginger Chai", 8);
 
     gingerChai.display();
-    masalChai.display();
+    masalaChai.display();
 
-    if(){
-
+    if (compareServings(masalaChai, gingerChai)) {
+        cout << "Masala Chai has more servings." << endl;
+    } else {
+        cout << "Masala Chai has fewer servings." << endl;
     }
-    else{
 
-    }
+    return 0;
 }
