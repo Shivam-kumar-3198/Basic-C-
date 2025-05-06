@@ -10,5 +10,6 @@ int main(){
     cout<<"Numer of cups served "<<arr[4]<<endl;
     cout<<"Numer of cups served "<<arr[5]<<endl;
     cout<<"Numer of cups served "<<arr[6]<<endl;
+    cout<<"Number of cups that are not served "<<arr[7]<<endl;
 
 }

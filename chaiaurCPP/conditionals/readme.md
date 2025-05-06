@@ -15,4 +15,3 @@ Challenge: Write a program that lets the user select a tea type from a menu. Use
 price based on the selected tea:* Green Tea: $2
 • Black Tea: $3
 • Oolong Tea: $4
-35:17
