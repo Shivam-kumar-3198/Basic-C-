@@ -15,5 +15,5 @@ Explanation: 153 is an Armstrong number because 1^3 + 5^3 + 3^3 = 153.
 using namespace std;
 
 int main(){
-    
+    cout<<"Armstrong is the combination of three number : ";
 }
