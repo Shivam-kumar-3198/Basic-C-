@@ -11,12 +11,16 @@ int main() {
     cin >> str;
 
     int n = str.length();
+    int left = 0;
+    int right = n - 1;  // Corrected variable names
 
-    for (int i = 0; i < n / 2; i++) {
-        if (str[i] != str[n - i - 1]) {
-            isPalindrome = false;
+    while (left < right) {
+        if (str[left] != str[right]) {  // Fixed incorrect variable names
+            isPalindrome = false;  // Properly set isPalindrome to false
             break;
         }
+        left++;  // Increment left pointer
+        right--; // Decrement right pointer
     }
 
     if (isPalindrome) {
