@@ -9,6 +9,8 @@ Output: Vowels: 3, Consonants: 7
 Explanation: "hello world" contains 3 vowels (e, o, o) and 7 consonants (h, l, l, w, r, l, d).
 */
 
+// NGINX is a powerful tool that helps websites load quickly, handle lots of users, and keep things running smoothly.
+
 #include <iostream>
 #include <cctype>
 using namespace std;
