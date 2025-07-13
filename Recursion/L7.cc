@@ -3,6 +3,8 @@
 using namespace std;
 
 void reverse(string& str, int i, int j){
+
+    cout<<"call received for"<<str<<endl;
     if(i>j)
     return ;
 
