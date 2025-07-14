@@ -11,5 +11,14 @@ Explanation: Prime numbers between 10 and 30 are 11, 13, 17, 19, 23, and 29.
 #include<iostream>
 using namespace std;
 int main(){
+      int n;
+      cout<<"Enter the number you want to check is it prime number or not : ";
+      cin>>n;
 
+      if(n%1==0 && n%n==0){
+        cout<<n<<" is the Prime number."<<endl;
+      }
+      else{
+        cout<<n<<" is not a prime number.";
+      }
 }
