@@ -1,3 +1,4 @@
+// finding the square root of the below problem 2 to the power 10 using recursion 
 #include<iostream>
 using namespace std;
 
