@@ -10,7 +10,7 @@ int main() {
 
     // Adjust to the first and last odd numbers
     if (start % 2 == 0) start++;
-    if (end % 2 == 0) end--;
+    if (end % 2 == 0) end--;  //here
 
     // If no odd numbers in range
     if (start > end) {
