@@ -12,7 +12,7 @@ Explanation: "radar" reads the same backward as forward.
 using namespace std;
 
 int main(){
-    int num, reversed = 0, digit, original;
+    int num, reversed = 0, remainder, original;
     cout<<"Enter a number : "<<endl;
     cin>>num;
 
@@ -20,8 +20,8 @@ int main(){
 
     while (num>0)
     {
-        digit= num%10;
-        reversed = reversed *10 + digit;
+        remainder= num%10;
+        reversed = reversed *10 + remainder;
         num=num/10;
     }
     if(original==reversed){
