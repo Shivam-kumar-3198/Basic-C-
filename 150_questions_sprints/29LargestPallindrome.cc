@@ -7,7 +7,7 @@ Example:
 Input: string = "babad"
 Output: "bab" or "aba"
 Explanation: Both "bab" and "aba" are valid palindromes in the string.
-*/
+*/  //expansion from centre
 #include <iostream>
 using namespace std;
 
