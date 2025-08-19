@@ -10,10 +10,23 @@ Explanation: The Fibonacci sequence up to 5 is generated.
 */
 #include<iostream>
 using namespace std;
+
+int fibonacci(int n){
+    if(n==0) return 0;
+    if(n==1) return 1;
+
+    return fibonacci(n-1) + fibonacci(n-2);
+}
 int main(){
-    int n;
+    int any;
     cout<<"Enter a number to check it's fibonacci series : ";
-    cin>>n;
+    cin>>any;
+
+   for(int i=0; i<any; i++){
+    cout<<fibonacci(i);
+   }
+   return 0;
+
 
     
 }
