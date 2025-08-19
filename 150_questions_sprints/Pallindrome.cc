@@ -18,9 +18,14 @@ int main(){
 
     original = num;
 
-    while (num>0)
+    while (num>0)  //4567 % 10 = 7
+    //456 % 10 = 6
+    
     {
-        remainder= num%10;
+        remainder= num%10;  // 1999 % 10 = 9
+        //199 % 10 = 9
+        //19 % 10 = 9
+        // 1% 10 = 0
         reversed = reversed *10 + remainder;
         num=num/10;
     }
