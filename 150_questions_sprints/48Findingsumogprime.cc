@@ -7,6 +7,7 @@ Example:
 Input: number = 12
 Output: 5
 Explanation: The prime factors of 12 are 2 and 3, and their sum is 2 + 3 = 5.
+
 */
 #include<iostream>
 using namespace std;
